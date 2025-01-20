@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.top-bar {
+    background: #f1f1f1;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #333;
+}
+
+.top-bar .edition .flag {
+    margin-left: 10px;
+}
+
+header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: 2px solid #eee;
+}
+
+header .logo h1 {
+    font-size: 28px;
+    color: #222;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 14px;
+    color: gray;
+}
+
+.user-options a {
+    margin-right: 15px;
+    color: #007BFF;
+}
+
+.user-options .subscribe-btn,
+.user-options .sign-in-btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.subscribe-btn {
+    background: orange;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.sign-in-btn {
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.main-nav {
+    background: #333;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: auto;
+}
+
+.main-nav ul li {
+    margin: 0;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.main-nav ul li a:hover {
+    background: #555;
+}
+
+.trending-bar {
+    background: #f4f4f4;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.trending-bar span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.trending-bar a {
+    margin-right: 10px;
+    color: red;
+}
+
+main {
+    flex: 2;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.subheading {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}

@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    border-radius: 10%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    background: #003366;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #002244;
+    border-radius: 5px;
+}
+
+/* Main and Aside Layout */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+main {
+    flex: 3;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main .dept-photo,
+main .hod-photo {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+aside {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+aside h3 {
+    margin-top: 0;
+}
