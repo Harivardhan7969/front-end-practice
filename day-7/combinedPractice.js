@@ -1,0 +1,38 @@
+
+const movies = [
+    {
+        title: 'The Shawshank Redemption',
+        price: 999
+    },
+    {
+        title: 'The Godfather',
+        price: 1299
+    },
+    {
+        title: 'The Dark Knight',
+        price: 1499
+    },
+    {
+        title: 'Pulp Fiction',
+        price: 1199
+    }
+
+]
+
+//  Create an array of 3 student objects
+const students = [
+    { name: "Alice", age: 20, grade: "A" },
+    { name: "Bob", age: 22, grade: "B" },
+    { name: "Charlie", age: 19, grade: "A+" },
+];
+
+//  Create an array of 3 mobile objects
+const mobiles = [
+    { brand: "Apple", price: 999, color: "Silver" },
+    { brand: "Samsung", price: 799, color: "Black" },
+    { brand: "OnePlus", price: 699, color: "Red" },
+];
+
+// Print the arrays to verify
+console.log("Students:", students);
+console.log("Mobiles:", mobiles);
